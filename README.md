@@ -1,2 +1,2 @@
-# samples
-Data Samples
+# vizydrop-data-samples
+Sample datasets
