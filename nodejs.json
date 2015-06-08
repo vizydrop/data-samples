@@ -1,0 +1,2122 @@
+[
+  {
+    "sha": "8140d10b975bdcfb90f453b7e0d3991f13d08d42",
+    "commit": {
+      "author": {
+        "name": "Chris Neave",
+        "email": "chrispneave@gmail.com",
+        "date": "2015-05-23T16:00:39Z"
+      },
+      "committer": {
+        "name": "James M Snell",
+        "email": "jasnell@gmail.com",
+        "date": "2015-06-05T18:40:31Z"
+      },
+      "message": "docs: Fix grammar in Transform API text\n\nThe third sentence of the fifth paragraph of the documentation for\ntransform._transform() has several words omitted and makes no\nsense. This fix fills in the missing words to clarify the passage.\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25371",
+      "tree": {
+        "sha": "a3f4a07f0b74474cfdd445e4a3fea1940a9fd65f",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/a3f4a07f0b74474cfdd445e4a3fea1940a9fd65f"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/8140d10b975bdcfb90f453b7e0d3991f13d08d42",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/8140d10b975bdcfb90f453b7e0d3991f13d08d42",
+    "html_url": "https://github.com/joyent/node/commit/8140d10b975bdcfb90f453b7e0d3991f13d08d42",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/8140d10b975bdcfb90f453b7e0d3991f13d08d42/comments",
+    "author": {
+      "login": "chrisneave",
+      "id": 1840068,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1840068?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chrisneave",
+      "html_url": "https://github.com/chrisneave",
+      "followers_url": "https://api.github.com/users/chrisneave/followers",
+      "following_url": "https://api.github.com/users/chrisneave/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chrisneave/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chrisneave/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chrisneave/subscriptions",
+      "organizations_url": "https://api.github.com/users/chrisneave/orgs",
+      "repos_url": "https://api.github.com/users/chrisneave/repos",
+      "events_url": "https://api.github.com/users/chrisneave/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chrisneave/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasnell",
+      "id": 439929,
+      "avatar_url": "https://avatars.githubusercontent.com/u/439929?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasnell",
+      "html_url": "https://github.com/jasnell",
+      "followers_url": "https://api.github.com/users/jasnell/followers",
+      "following_url": "https://api.github.com/users/jasnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasnell/orgs",
+      "repos_url": "https://api.github.com/users/jasnell/repos",
+      "events_url": "https://api.github.com/users/jasnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "8c262dd3065aa526ded4a226daa7d515bf8ffb2c",
+        "url": "https://api.github.com/repos/joyent/node/commits/8c262dd3065aa526ded4a226daa7d515bf8ffb2c",
+        "html_url": "https://github.com/joyent/node/commit/8c262dd3065aa526ded4a226daa7d515bf8ffb2c"
+      }
+    ]
+  },
+  {
+    "sha": "8c262dd3065aa526ded4a226daa7d515bf8ffb2c",
+    "commit": {
+      "author": {
+        "name": "Dumitru Uzun",
+        "email": "contact@duzun.me",
+        "date": "2015-05-28T09:29:00Z"
+      },
+      "committer": {
+        "name": "James M Snell",
+        "email": "jasnell@gmail.com",
+        "date": "2015-06-05T17:28:41Z"
+      },
+      "message": "fixed a typo: fs.ReadStream(filename) -> fs.createReadStream(filename)\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25453",
+      "tree": {
+        "sha": "d4dd9ba3227f6e4adacbb3d6deb5d0b85d07d21d",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/d4dd9ba3227f6e4adacbb3d6deb5d0b85d07d21d"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/8c262dd3065aa526ded4a226daa7d515bf8ffb2c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/8c262dd3065aa526ded4a226daa7d515bf8ffb2c",
+    "html_url": "https://github.com/joyent/node/commit/8c262dd3065aa526ded4a226daa7d515bf8ffb2c",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/8c262dd3065aa526ded4a226daa7d515bf8ffb2c/comments",
+    "author": {
+      "login": "duzun",
+      "id": 321424,
+      "avatar_url": "https://avatars.githubusercontent.com/u/321424?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/duzun",
+      "html_url": "https://github.com/duzun",
+      "followers_url": "https://api.github.com/users/duzun/followers",
+      "following_url": "https://api.github.com/users/duzun/following{/other_user}",
+      "gists_url": "https://api.github.com/users/duzun/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/duzun/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/duzun/subscriptions",
+      "organizations_url": "https://api.github.com/users/duzun/orgs",
+      "repos_url": "https://api.github.com/users/duzun/repos",
+      "events_url": "https://api.github.com/users/duzun/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/duzun/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasnell",
+      "id": 439929,
+      "avatar_url": "https://avatars.githubusercontent.com/u/439929?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasnell",
+      "html_url": "https://github.com/jasnell",
+      "followers_url": "https://api.github.com/users/jasnell/followers",
+      "following_url": "https://api.github.com/users/jasnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasnell/orgs",
+      "repos_url": "https://api.github.com/users/jasnell/repos",
+      "events_url": "https://api.github.com/users/jasnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6671efa666464e28adff96bc7bc982967db87c9d",
+        "url": "https://api.github.com/repos/joyent/node/commits/6671efa666464e28adff96bc7bc982967db87c9d",
+        "html_url": "https://github.com/joyent/node/commit/6671efa666464e28adff96bc7bc982967db87c9d"
+      }
+    ]
+  },
+  {
+    "sha": "6671efa666464e28adff96bc7bc982967db87c9d",
+    "commit": {
+      "author": {
+        "name": "Hideki Yamamura",
+        "email": "hideki.yamamura@gmail.com",
+        "date": "2015-06-02T13:30:48Z"
+      },
+      "committer": {
+        "name": "James M Snell",
+        "email": "jasnell@gmail.com",
+        "date": "2015-06-05T16:36:52Z"
+      },
+      "message": "Fix improper sample code in http.markdown\n\nYou must consume the data from the response object. #8443\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25471",
+      "tree": {
+        "sha": "5d0a8b0b869baa4a0339423c4d0dde0e9e3e92a3",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/5d0a8b0b869baa4a0339423c4d0dde0e9e3e92a3"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/6671efa666464e28adff96bc7bc982967db87c9d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/6671efa666464e28adff96bc7bc982967db87c9d",
+    "html_url": "https://github.com/joyent/node/commit/6671efa666464e28adff96bc7bc982967db87c9d",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/6671efa666464e28adff96bc7bc982967db87c9d/comments",
+    "author": {
+      "login": "hidekiy",
+      "id": 111804,
+      "avatar_url": "https://avatars.githubusercontent.com/u/111804?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hidekiy",
+      "html_url": "https://github.com/hidekiy",
+      "followers_url": "https://api.github.com/users/hidekiy/followers",
+      "following_url": "https://api.github.com/users/hidekiy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hidekiy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hidekiy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hidekiy/subscriptions",
+      "organizations_url": "https://api.github.com/users/hidekiy/orgs",
+      "repos_url": "https://api.github.com/users/hidekiy/repos",
+      "events_url": "https://api.github.com/users/hidekiy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hidekiy/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasnell",
+      "id": 439929,
+      "avatar_url": "https://avatars.githubusercontent.com/u/439929?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasnell",
+      "html_url": "https://github.com/jasnell",
+      "followers_url": "https://api.github.com/users/jasnell/followers",
+      "following_url": "https://api.github.com/users/jasnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasnell/orgs",
+      "repos_url": "https://api.github.com/users/jasnell/repos",
+      "events_url": "https://api.github.com/users/jasnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "f9d783abb97ab02edb05d7cfb780194f0929d132",
+        "url": "https://api.github.com/repos/joyent/node/commits/f9d783abb97ab02edb05d7cfb780194f0929d132",
+        "html_url": "https://github.com/joyent/node/commit/f9d783abb97ab02edb05d7cfb780194f0929d132"
+      }
+    ]
+  },
+  {
+    "sha": "f9d783abb97ab02edb05d7cfb780194f0929d132",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-06-04T23:13:13Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-06-04T23:13:13Z"
+      },
+      "message": "Merge remote-tracking branch 'upstream/v0.12'\n\nConflicts:\n\tdoc/api/tls.markdown\n\tsrc/node_version.h",
+      "tree": {
+        "sha": "3902ce629259b9034cdacfcf8340e8740838156b",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/3902ce629259b9034cdacfcf8340e8740838156b"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/f9d783abb97ab02edb05d7cfb780194f0929d132",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/f9d783abb97ab02edb05d7cfb780194f0929d132",
+    "html_url": "https://github.com/joyent/node/commit/f9d783abb97ab02edb05d7cfb780194f0929d132",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/f9d783abb97ab02edb05d7cfb780194f0929d132/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4d3514f83c453f74fbc18cd30fab5b38519bf35f",
+        "url": "https://api.github.com/repos/joyent/node/commits/4d3514f83c453f74fbc18cd30fab5b38519bf35f",
+        "html_url": "https://github.com/joyent/node/commit/4d3514f83c453f74fbc18cd30fab5b38519bf35f"
+      },
+      {
+        "sha": "10349829f2f462e57cf7db2ef4c3a387d23e4826",
+        "url": "https://api.github.com/repos/joyent/node/commits/10349829f2f462e57cf7db2ef4c3a387d23e4826",
+        "html_url": "https://github.com/joyent/node/commit/10349829f2f462e57cf7db2ef4c3a387d23e4826"
+      }
+    ]
+  },
+  {
+    "sha": "4d3514f83c453f74fbc18cd30fab5b38519bf35f",
+    "commit": {
+      "author": {
+        "name": "Коренберг Марк (imac)",
+        "email": "socketpair@gmail.com",
+        "date": "2015-05-16T15:49:16Z"
+      },
+      "committer": {
+        "name": "James M Snell",
+        "email": "jasnell@gmail.com",
+        "date": "2015-06-04T16:31:49Z"
+      },
+      "message": "tls.createSecurePair(): fix documentation typo\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25341",
+      "tree": {
+        "sha": "23afc177af368a339aa55a6b71f178742b68c8b6",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/23afc177af368a339aa55a6b71f178742b68c8b6"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/4d3514f83c453f74fbc18cd30fab5b38519bf35f",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/4d3514f83c453f74fbc18cd30fab5b38519bf35f",
+    "html_url": "https://github.com/joyent/node/commit/4d3514f83c453f74fbc18cd30fab5b38519bf35f",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/4d3514f83c453f74fbc18cd30fab5b38519bf35f/comments",
+    "author": {
+      "login": "socketpair",
+      "id": 1157412,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1157412?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/socketpair",
+      "html_url": "https://github.com/socketpair",
+      "followers_url": "https://api.github.com/users/socketpair/followers",
+      "following_url": "https://api.github.com/users/socketpair/following{/other_user}",
+      "gists_url": "https://api.github.com/users/socketpair/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/socketpair/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/socketpair/subscriptions",
+      "organizations_url": "https://api.github.com/users/socketpair/orgs",
+      "repos_url": "https://api.github.com/users/socketpair/repos",
+      "events_url": "https://api.github.com/users/socketpair/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/socketpair/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasnell",
+      "id": 439929,
+      "avatar_url": "https://avatars.githubusercontent.com/u/439929?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasnell",
+      "html_url": "https://github.com/jasnell",
+      "followers_url": "https://api.github.com/users/jasnell/followers",
+      "following_url": "https://api.github.com/users/jasnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasnell/orgs",
+      "repos_url": "https://api.github.com/users/jasnell/repos",
+      "events_url": "https://api.github.com/users/jasnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "016ff771905b3ac82e0269b46bb98c011fa8a282",
+        "url": "https://api.github.com/repos/joyent/node/commits/016ff771905b3ac82e0269b46bb98c011fa8a282",
+        "html_url": "https://github.com/joyent/node/commit/016ff771905b3ac82e0269b46bb98c011fa8a282"
+      }
+    ]
+  },
+  {
+    "sha": "10349829f2f462e57cf7db2ef4c3a387d23e4826",
+    "commit": {
+      "author": {
+        "name": "Shigeki Ohtsu",
+        "email": "ohtsu@iij.ad.jp",
+        "date": "2015-05-27T01:41:43Z"
+      },
+      "committer": {
+        "name": "Alexis Campailla",
+        "email": "alexis@janeasystems.com",
+        "date": "2015-06-04T12:24:05Z"
+      },
+      "message": "test: add -no_rand_screen for tls-server-verify\n\nThis improves the performance of openssl s_client on Windows and\ngains several seconds to finish test-tls-server-verify.\n\n(cherry picked from commit 2ff517e0e410ea33ba5a3d289a82fc315d120e8e)\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25368",
+      "tree": {
+        "sha": "66707f228125d5f721ffb0ab7fab1215e6618afa",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/66707f228125d5f721ffb0ab7fab1215e6618afa"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/10349829f2f462e57cf7db2ef4c3a387d23e4826",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/10349829f2f462e57cf7db2ef4c3a387d23e4826",
+    "html_url": "https://github.com/joyent/node/commit/10349829f2f462e57cf7db2ef4c3a387d23e4826",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/10349829f2f462e57cf7db2ef4c3a387d23e4826/comments",
+    "author": {
+      "login": "shigeki",
+      "id": 782880,
+      "avatar_url": "https://avatars.githubusercontent.com/u/782880?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shigeki",
+      "html_url": "https://github.com/shigeki",
+      "followers_url": "https://api.github.com/users/shigeki/followers",
+      "following_url": "https://api.github.com/users/shigeki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shigeki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shigeki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shigeki/subscriptions",
+      "organizations_url": "https://api.github.com/users/shigeki/orgs",
+      "repos_url": "https://api.github.com/users/shigeki/repos",
+      "events_url": "https://api.github.com/users/shigeki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shigeki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "orangemocha",
+      "id": 1625870,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1625870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orangemocha",
+      "html_url": "https://github.com/orangemocha",
+      "followers_url": "https://api.github.com/users/orangemocha/followers",
+      "following_url": "https://api.github.com/users/orangemocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orangemocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orangemocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orangemocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/orangemocha/orgs",
+      "repos_url": "https://api.github.com/users/orangemocha/repos",
+      "events_url": "https://api.github.com/users/orangemocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orangemocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "fa4aa347ebbe325e934bcda6f93a15e2e6524f1b",
+        "url": "https://api.github.com/repos/joyent/node/commits/fa4aa347ebbe325e934bcda6f93a15e2e6524f1b",
+        "html_url": "https://github.com/joyent/node/commit/fa4aa347ebbe325e934bcda6f93a15e2e6524f1b"
+      }
+    ]
+  },
+  {
+    "sha": "fa4aa347ebbe325e934bcda6f93a15e2e6524f1b",
+    "commit": {
+      "author": {
+        "name": "Shigeki Ohtsu",
+        "email": "ohtsu@iij.ad.jp",
+        "date": "2015-05-27T01:33:38Z"
+      },
+      "committer": {
+        "name": "Alexis Campailla",
+        "email": "alexis@janeasystems.com",
+        "date": "2015-06-04T12:24:04Z"
+      },
+      "message": "deps: add -no_rand_screen to openssl s_client\n\nIn openssl s_client on Windows, RAND_screen() is invoked to initialize\nrandom state but it takes several seconds in each connection.\nThis added -no_rand_screen to openssl s_client on Windows to skip\nRAND_screen() and gets a better performance in the unit test of\ntest-tls-server-verify.\nDo not enable this except to use in the unit test.\n\n(cherry picked from commit 9f0f7c38e6df975dd39735d0e9ef968076369c74)\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25368",
+      "tree": {
+        "sha": "7e3dd18ddf0cb95b8321db8564060a1802fae69d",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/7e3dd18ddf0cb95b8321db8564060a1802fae69d"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/fa4aa347ebbe325e934bcda6f93a15e2e6524f1b",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/fa4aa347ebbe325e934bcda6f93a15e2e6524f1b",
+    "html_url": "https://github.com/joyent/node/commit/fa4aa347ebbe325e934bcda6f93a15e2e6524f1b",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/fa4aa347ebbe325e934bcda6f93a15e2e6524f1b/comments",
+    "author": {
+      "login": "shigeki",
+      "id": 782880,
+      "avatar_url": "https://avatars.githubusercontent.com/u/782880?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shigeki",
+      "html_url": "https://github.com/shigeki",
+      "followers_url": "https://api.github.com/users/shigeki/followers",
+      "following_url": "https://api.github.com/users/shigeki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shigeki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shigeki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shigeki/subscriptions",
+      "organizations_url": "https://api.github.com/users/shigeki/orgs",
+      "repos_url": "https://api.github.com/users/shigeki/repos",
+      "events_url": "https://api.github.com/users/shigeki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shigeki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "orangemocha",
+      "id": 1625870,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1625870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orangemocha",
+      "html_url": "https://github.com/orangemocha",
+      "followers_url": "https://api.github.com/users/orangemocha/followers",
+      "following_url": "https://api.github.com/users/orangemocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orangemocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orangemocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orangemocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/orangemocha/orgs",
+      "repos_url": "https://api.github.com/users/orangemocha/repos",
+      "events_url": "https://api.github.com/users/orangemocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orangemocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "cb63d93e03dea5bda796a96ab0e51d3c8bab823c",
+        "url": "https://api.github.com/repos/joyent/node/commits/cb63d93e03dea5bda796a96ab0e51d3c8bab823c",
+        "html_url": "https://github.com/joyent/node/commit/cb63d93e03dea5bda796a96ab0e51d3c8bab823c"
+      }
+    ]
+  },
+  {
+    "sha": "cb63d93e03dea5bda796a96ab0e51d3c8bab823c",
+    "commit": {
+      "author": {
+        "name": "Shigeki Ohtsu",
+        "email": "ohtsu@iij.ad.jp",
+        "date": "2015-05-27T01:16:51Z"
+      },
+      "committer": {
+        "name": "Alexis Campailla",
+        "email": "alexis@janeasystems.com",
+        "date": "2015-06-04T12:24:04Z"
+      },
+      "message": "test: kill child in tls-server-verify for speed up\n\nFor better performance of the test, the parent kills child processes\nso as not to wait them to be ended.\n\n(cherry picked from commit 833b23636045f7afc929196139021630a390391a)\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25368",
+      "tree": {
+        "sha": "0b0fb6047ed99f0893bcd61513178a906510a84d",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/0b0fb6047ed99f0893bcd61513178a906510a84d"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/cb63d93e03dea5bda796a96ab0e51d3c8bab823c",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/cb63d93e03dea5bda796a96ab0e51d3c8bab823c",
+    "html_url": "https://github.com/joyent/node/commit/cb63d93e03dea5bda796a96ab0e51d3c8bab823c",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/cb63d93e03dea5bda796a96ab0e51d3c8bab823c/comments",
+    "author": {
+      "login": "shigeki",
+      "id": 782880,
+      "avatar_url": "https://avatars.githubusercontent.com/u/782880?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shigeki",
+      "html_url": "https://github.com/shigeki",
+      "followers_url": "https://api.github.com/users/shigeki/followers",
+      "following_url": "https://api.github.com/users/shigeki/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shigeki/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shigeki/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shigeki/subscriptions",
+      "organizations_url": "https://api.github.com/users/shigeki/orgs",
+      "repos_url": "https://api.github.com/users/shigeki/repos",
+      "events_url": "https://api.github.com/users/shigeki/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shigeki/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "orangemocha",
+      "id": 1625870,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1625870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orangemocha",
+      "html_url": "https://github.com/orangemocha",
+      "followers_url": "https://api.github.com/users/orangemocha/followers",
+      "following_url": "https://api.github.com/users/orangemocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orangemocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orangemocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orangemocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/orangemocha/orgs",
+      "repos_url": "https://api.github.com/users/orangemocha/repos",
+      "events_url": "https://api.github.com/users/orangemocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orangemocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "83b7c0742123b0786ddffd3c5a66c63cedad22af",
+        "url": "https://api.github.com/repos/joyent/node/commits/83b7c0742123b0786ddffd3c5a66c63cedad22af",
+        "html_url": "https://github.com/joyent/node/commit/83b7c0742123b0786ddffd3c5a66c63cedad22af"
+      }
+    ]
+  },
+  {
+    "sha": "83b7c0742123b0786ddffd3c5a66c63cedad22af",
+    "commit": {
+      "author": {
+        "name": "Alexis Campailla",
+        "email": "alexis@janeasystems.com",
+        "date": "2015-05-22T16:04:40Z"
+      },
+      "committer": {
+        "name": "Alexis Campailla",
+        "email": "alexis@janeasystems.com",
+        "date": "2015-06-04T12:24:04Z"
+      },
+      "message": "test,win: re-enable tls-server-verify in CI\n\nNow that the test is fixed, node-accept-pull-request should\nfail when the test fails.\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25368",
+      "tree": {
+        "sha": "053e3f88d54b63698c552a61822cc3fbef673d3f",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/053e3f88d54b63698c552a61822cc3fbef673d3f"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/83b7c0742123b0786ddffd3c5a66c63cedad22af",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/83b7c0742123b0786ddffd3c5a66c63cedad22af",
+    "html_url": "https://github.com/joyent/node/commit/83b7c0742123b0786ddffd3c5a66c63cedad22af",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/83b7c0742123b0786ddffd3c5a66c63cedad22af/comments",
+    "author": {
+      "login": "orangemocha",
+      "id": 1625870,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1625870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orangemocha",
+      "html_url": "https://github.com/orangemocha",
+      "followers_url": "https://api.github.com/users/orangemocha/followers",
+      "following_url": "https://api.github.com/users/orangemocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orangemocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orangemocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orangemocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/orangemocha/orgs",
+      "repos_url": "https://api.github.com/users/orangemocha/repos",
+      "events_url": "https://api.github.com/users/orangemocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orangemocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "orangemocha",
+      "id": 1625870,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1625870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orangemocha",
+      "html_url": "https://github.com/orangemocha",
+      "followers_url": "https://api.github.com/users/orangemocha/followers",
+      "following_url": "https://api.github.com/users/orangemocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orangemocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orangemocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orangemocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/orangemocha/orgs",
+      "repos_url": "https://api.github.com/users/orangemocha/repos",
+      "events_url": "https://api.github.com/users/orangemocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orangemocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "29bbb3217175810d6e3e32df4baf5c30ae873147",
+        "url": "https://api.github.com/repos/joyent/node/commits/29bbb3217175810d6e3e32df4baf5c30ae873147",
+        "html_url": "https://github.com/joyent/node/commit/29bbb3217175810d6e3e32df4baf5c30ae873147"
+      }
+    ]
+  },
+  {
+    "sha": "29bbb3217175810d6e3e32df4baf5c30ae873147",
+    "commit": {
+      "author": {
+        "name": "João Reis",
+        "email": "reis@janeasystems.com",
+        "date": "2015-05-22T13:43:16Z"
+      },
+      "committer": {
+        "name": "Alexis Campailla",
+        "email": "alexis@janeasystems.com",
+        "date": "2015-06-04T12:24:03Z"
+      },
+      "message": "test: improve console output of tls-server-verify\n\nWhen running in parallel, it is not easy to identify what server and\nclient failed when the test fails. This adds identifiers to all lines\nof console output.\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25368",
+      "tree": {
+        "sha": "ebf52964a9946e3343a5a173d827ab5990ad9930",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/ebf52964a9946e3343a5a173d827ab5990ad9930"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/29bbb3217175810d6e3e32df4baf5c30ae873147",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/29bbb3217175810d6e3e32df4baf5c30ae873147",
+    "html_url": "https://github.com/joyent/node/commit/29bbb3217175810d6e3e32df4baf5c30ae873147",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/29bbb3217175810d6e3e32df4baf5c30ae873147/comments",
+    "author": {
+      "login": "joaocgreis",
+      "id": 134460,
+      "avatar_url": "https://avatars.githubusercontent.com/u/134460?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joaocgreis",
+      "html_url": "https://github.com/joaocgreis",
+      "followers_url": "https://api.github.com/users/joaocgreis/followers",
+      "following_url": "https://api.github.com/users/joaocgreis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joaocgreis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joaocgreis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joaocgreis/subscriptions",
+      "organizations_url": "https://api.github.com/users/joaocgreis/orgs",
+      "repos_url": "https://api.github.com/users/joaocgreis/repos",
+      "events_url": "https://api.github.com/users/joaocgreis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joaocgreis/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "orangemocha",
+      "id": 1625870,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1625870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orangemocha",
+      "html_url": "https://github.com/orangemocha",
+      "followers_url": "https://api.github.com/users/orangemocha/followers",
+      "following_url": "https://api.github.com/users/orangemocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orangemocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orangemocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orangemocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/orangemocha/orgs",
+      "repos_url": "https://api.github.com/users/orangemocha/repos",
+      "events_url": "https://api.github.com/users/orangemocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orangemocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6d3450511b70fb1e05345b28a7cae039a7c02e99",
+        "url": "https://api.github.com/repos/joyent/node/commits/6d3450511b70fb1e05345b28a7cae039a7c02e99",
+        "html_url": "https://github.com/joyent/node/commit/6d3450511b70fb1e05345b28a7cae039a7c02e99"
+      }
+    ]
+  },
+  {
+    "sha": "6d3450511b70fb1e05345b28a7cae039a7c02e99",
+    "commit": {
+      "author": {
+        "name": "João Reis",
+        "email": "reis@janeasystems.com",
+        "date": "2015-05-22T13:28:11Z"
+      },
+      "committer": {
+        "name": "Alexis Campailla",
+        "email": "alexis@janeasystems.com",
+        "date": "2015-06-04T12:24:03Z"
+      },
+      "message": "test: run tls-server-verify servers in parallel\n\nDifferent servers must use different ports. Since we can count only on\ncommon.PORT and common.PORT+1, run only 2 servers in parallel.\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25368",
+      "tree": {
+        "sha": "dcc0ffdb37ba25616983e3b2d1e74f13893b681b",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/dcc0ffdb37ba25616983e3b2d1e74f13893b681b"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/6d3450511b70fb1e05345b28a7cae039a7c02e99",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/6d3450511b70fb1e05345b28a7cae039a7c02e99",
+    "html_url": "https://github.com/joyent/node/commit/6d3450511b70fb1e05345b28a7cae039a7c02e99",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/6d3450511b70fb1e05345b28a7cae039a7c02e99/comments",
+    "author": {
+      "login": "joaocgreis",
+      "id": 134460,
+      "avatar_url": "https://avatars.githubusercontent.com/u/134460?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joaocgreis",
+      "html_url": "https://github.com/joaocgreis",
+      "followers_url": "https://api.github.com/users/joaocgreis/followers",
+      "following_url": "https://api.github.com/users/joaocgreis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joaocgreis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joaocgreis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joaocgreis/subscriptions",
+      "organizations_url": "https://api.github.com/users/joaocgreis/orgs",
+      "repos_url": "https://api.github.com/users/joaocgreis/repos",
+      "events_url": "https://api.github.com/users/joaocgreis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joaocgreis/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "orangemocha",
+      "id": 1625870,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1625870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orangemocha",
+      "html_url": "https://github.com/orangemocha",
+      "followers_url": "https://api.github.com/users/orangemocha/followers",
+      "following_url": "https://api.github.com/users/orangemocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orangemocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orangemocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orangemocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/orangemocha/orgs",
+      "repos_url": "https://api.github.com/users/orangemocha/repos",
+      "events_url": "https://api.github.com/users/orangemocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orangemocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1191e651e4c0ee63db5730169a921341c90354d8",
+        "url": "https://api.github.com/repos/joyent/node/commits/1191e651e4c0ee63db5730169a921341c90354d8",
+        "html_url": "https://github.com/joyent/node/commit/1191e651e4c0ee63db5730169a921341c90354d8"
+      }
+    ]
+  },
+  {
+    "sha": "1191e651e4c0ee63db5730169a921341c90354d8",
+    "commit": {
+      "author": {
+        "name": "João Reis",
+        "email": "reis@janeasystems.com",
+        "date": "2015-05-22T13:16:07Z"
+      },
+      "committer": {
+        "name": "Alexis Campailla",
+        "email": "alexis@janeasystems.com",
+        "date": "2015-06-04T12:24:03Z"
+      },
+      "message": "test: running tls-server-verify clients in parallel\n\nOpenSSL s_client introduces some delay on Windows. With all clients\nrunning sequentially, this delay is big enough to break CI. This fix runs\nthe clients in parallel (unless the test includes renegotiation),\nreducing the total run time.\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25368",
+      "tree": {
+        "sha": "2fa8092e5a618e5bb6d8363201a4a7f9920a6942",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/2fa8092e5a618e5bb6d8363201a4a7f9920a6942"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/1191e651e4c0ee63db5730169a921341c90354d8",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/1191e651e4c0ee63db5730169a921341c90354d8",
+    "html_url": "https://github.com/joyent/node/commit/1191e651e4c0ee63db5730169a921341c90354d8",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/1191e651e4c0ee63db5730169a921341c90354d8/comments",
+    "author": {
+      "login": "joaocgreis",
+      "id": 134460,
+      "avatar_url": "https://avatars.githubusercontent.com/u/134460?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/joaocgreis",
+      "html_url": "https://github.com/joaocgreis",
+      "followers_url": "https://api.github.com/users/joaocgreis/followers",
+      "following_url": "https://api.github.com/users/joaocgreis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/joaocgreis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/joaocgreis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/joaocgreis/subscriptions",
+      "organizations_url": "https://api.github.com/users/joaocgreis/orgs",
+      "repos_url": "https://api.github.com/users/joaocgreis/repos",
+      "events_url": "https://api.github.com/users/joaocgreis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/joaocgreis/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "orangemocha",
+      "id": 1625870,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1625870?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/orangemocha",
+      "html_url": "https://github.com/orangemocha",
+      "followers_url": "https://api.github.com/users/orangemocha/followers",
+      "following_url": "https://api.github.com/users/orangemocha/following{/other_user}",
+      "gists_url": "https://api.github.com/users/orangemocha/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/orangemocha/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/orangemocha/subscriptions",
+      "organizations_url": "https://api.github.com/users/orangemocha/orgs",
+      "repos_url": "https://api.github.com/users/orangemocha/repos",
+      "events_url": "https://api.github.com/users/orangemocha/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/orangemocha/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "85d670e5a2ceecd74235c4e7d3ad7c6ffd696ec6",
+        "url": "https://api.github.com/repos/joyent/node/commits/85d670e5a2ceecd74235c4e7d3ad7c6ffd696ec6",
+        "html_url": "https://github.com/joyent/node/commit/85d670e5a2ceecd74235c4e7d3ad7c6ffd696ec6"
+      }
+    ]
+  },
+  {
+    "sha": "016ff771905b3ac82e0269b46bb98c011fa8a282",
+    "commit": {
+      "author": {
+        "name": "Devon Harvey",
+        "email": "devonharvey@gmail.com",
+        "date": "2015-06-03T05:21:07Z"
+      },
+      "committer": {
+        "name": "James M Snell",
+        "email": "jasnell@gmail.com",
+        "date": "2015-06-04T06:27:38Z"
+      },
+      "message": "_http_server.js: fix typo in comment\n\nFix misspelling of 'response' on line 453\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25472",
+      "tree": {
+        "sha": "f4468dc61999b534bc5c3f5bde6dce30aa6a40f7",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/f4468dc61999b534bc5c3f5bde6dce30aa6a40f7"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/016ff771905b3ac82e0269b46bb98c011fa8a282",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/016ff771905b3ac82e0269b46bb98c011fa8a282",
+    "html_url": "https://github.com/joyent/node/commit/016ff771905b3ac82e0269b46bb98c011fa8a282",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/016ff771905b3ac82e0269b46bb98c011fa8a282/comments",
+    "author": {
+      "login": "devonharvey",
+      "id": 9685632,
+      "avatar_url": "https://avatars.githubusercontent.com/u/9685632?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/devonharvey",
+      "html_url": "https://github.com/devonharvey",
+      "followers_url": "https://api.github.com/users/devonharvey/followers",
+      "following_url": "https://api.github.com/users/devonharvey/following{/other_user}",
+      "gists_url": "https://api.github.com/users/devonharvey/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/devonharvey/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/devonharvey/subscriptions",
+      "organizations_url": "https://api.github.com/users/devonharvey/orgs",
+      "repos_url": "https://api.github.com/users/devonharvey/repos",
+      "events_url": "https://api.github.com/users/devonharvey/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/devonharvey/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasnell",
+      "id": 439929,
+      "avatar_url": "https://avatars.githubusercontent.com/u/439929?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasnell",
+      "html_url": "https://github.com/jasnell",
+      "followers_url": "https://api.github.com/users/jasnell/followers",
+      "following_url": "https://api.github.com/users/jasnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasnell/orgs",
+      "repos_url": "https://api.github.com/users/jasnell/repos",
+      "events_url": "https://api.github.com/users/jasnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6f9b1789d2239ad23e97f9ff8ac14e03635d6412",
+        "url": "https://api.github.com/repos/joyent/node/commits/6f9b1789d2239ad23e97f9ff8ac14e03635d6412",
+        "html_url": "https://github.com/joyent/node/commit/6f9b1789d2239ad23e97f9ff8ac14e03635d6412"
+      }
+    ]
+  },
+  {
+    "sha": "6f9b1789d2239ad23e97f9ff8ac14e03635d6412",
+    "commit": {
+      "author": {
+        "name": "James M Snell",
+        "email": "jasnell@gmail.com",
+        "date": "2015-05-19T15:19:00Z"
+      },
+      "committer": {
+        "name": "James M Snell",
+        "email": "jasnell@gmail.com",
+        "date": "2015-06-04T05:34:57Z"
+      },
+      "message": "doc: improve http.request example\n\nFixes: https://github.com/joyent/node/issues/5317\n\nImprove the example in the documentation to show\nthat response content can be chunked across multiple\n`data` events.\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25352",
+      "tree": {
+        "sha": "25b5c2b4b61219d3a312e4b5a441979741ae93e7",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/25b5c2b4b61219d3a312e4b5a441979741ae93e7"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/6f9b1789d2239ad23e97f9ff8ac14e03635d6412",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/6f9b1789d2239ad23e97f9ff8ac14e03635d6412",
+    "html_url": "https://github.com/joyent/node/commit/6f9b1789d2239ad23e97f9ff8ac14e03635d6412",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/6f9b1789d2239ad23e97f9ff8ac14e03635d6412/comments",
+    "author": {
+      "login": "jasnell",
+      "id": 439929,
+      "avatar_url": "https://avatars.githubusercontent.com/u/439929?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasnell",
+      "html_url": "https://github.com/jasnell",
+      "followers_url": "https://api.github.com/users/jasnell/followers",
+      "following_url": "https://api.github.com/users/jasnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasnell/orgs",
+      "repos_url": "https://api.github.com/users/jasnell/repos",
+      "events_url": "https://api.github.com/users/jasnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "jasnell",
+      "id": 439929,
+      "avatar_url": "https://avatars.githubusercontent.com/u/439929?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jasnell",
+      "html_url": "https://github.com/jasnell",
+      "followers_url": "https://api.github.com/users/jasnell/followers",
+      "following_url": "https://api.github.com/users/jasnell/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jasnell/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jasnell/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jasnell/subscriptions",
+      "organizations_url": "https://api.github.com/users/jasnell/orgs",
+      "repos_url": "https://api.github.com/users/jasnell/repos",
+      "events_url": "https://api.github.com/users/jasnell/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jasnell/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d13d7f74d794340ac5e126cfb4ce507fe0f803d5",
+        "url": "https://api.github.com/repos/joyent/node/commits/d13d7f74d794340ac5e126cfb4ce507fe0f803d5",
+        "html_url": "https://github.com/joyent/node/commit/d13d7f74d794340ac5e126cfb4ce507fe0f803d5"
+      }
+    ]
+  },
+  {
+    "sha": "85d670e5a2ceecd74235c4e7d3ad7c6ffd696ec6",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-23T06:47:33Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-23T06:47:33Z"
+      },
+      "message": "Now working on 0.12.5",
+      "tree": {
+        "sha": "03b94fed8b0babeab28f688e13824f7eb8da6283",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/03b94fed8b0babeab28f688e13824f7eb8da6283"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/85d670e5a2ceecd74235c4e7d3ad7c6ffd696ec6",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/85d670e5a2ceecd74235c4e7d3ad7c6ffd696ec6",
+    "html_url": "https://github.com/joyent/node/commit/85d670e5a2ceecd74235c4e7d3ad7c6ffd696ec6",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/85d670e5a2ceecd74235c4e7d3ad7c6ffd696ec6/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1150bec595474a8a1cf19da5250e12df787102ff",
+        "url": "https://api.github.com/repos/joyent/node/commits/1150bec595474a8a1cf19da5250e12df787102ff",
+        "html_url": "https://github.com/joyent/node/commit/1150bec595474a8a1cf19da5250e12df787102ff"
+      }
+    ]
+  },
+  {
+    "sha": "1150bec595474a8a1cf19da5250e12df787102ff",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-23T06:47:12Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-23T06:47:12Z"
+      },
+      "message": "Merge branch 'v0.12.4-release' into v0.12",
+      "tree": {
+        "sha": "8e3e0444f4bbd1577a81a63ddfa29599748a4cb8",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/8e3e0444f4bbd1577a81a63ddfa29599748a4cb8"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/1150bec595474a8a1cf19da5250e12df787102ff",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/1150bec595474a8a1cf19da5250e12df787102ff",
+    "html_url": "https://github.com/joyent/node/commit/1150bec595474a8a1cf19da5250e12df787102ff",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/1150bec595474a8a1cf19da5250e12df787102ff/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "202c18bbc3e134ed3e97f530749cb9f9ac60ce53",
+        "url": "https://api.github.com/repos/joyent/node/commits/202c18bbc3e134ed3e97f530749cb9f9ac60ce53",
+        "html_url": "https://github.com/joyent/node/commit/202c18bbc3e134ed3e97f530749cb9f9ac60ce53"
+      },
+      {
+        "sha": "0a604e92e258c5ee2752d763e50721e35053f135",
+        "url": "https://api.github.com/repos/joyent/node/commits/0a604e92e258c5ee2752d763e50721e35053f135",
+        "html_url": "https://github.com/joyent/node/commit/0a604e92e258c5ee2752d763e50721e35053f135"
+      }
+    ]
+  },
+  {
+    "sha": "0a604e92e258c5ee2752d763e50721e35053f135",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-23T00:40:25Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-23T03:06:54Z"
+      },
+      "message": "2015.05.22, Version 0.12.4 (Stable)\n\n* npm: upgrade to 2.10.1\n\n* V8: revert v8 Array.prototype.values() removal (cjihrig)\n\n* win: bring back xp/2k3 support (Bert Belder)",
+      "tree": {
+        "sha": "8e3e0444f4bbd1577a81a63ddfa29599748a4cb8",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/8e3e0444f4bbd1577a81a63ddfa29599748a4cb8"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/0a604e92e258c5ee2752d763e50721e35053f135",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/0a604e92e258c5ee2752d763e50721e35053f135",
+    "html_url": "https://github.com/joyent/node/commit/0a604e92e258c5ee2752d763e50721e35053f135",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/0a604e92e258c5ee2752d763e50721e35053f135/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "202c18bbc3e134ed3e97f530749cb9f9ac60ce53",
+        "url": "https://api.github.com/repos/joyent/node/commits/202c18bbc3e134ed3e97f530749cb9f9ac60ce53",
+        "html_url": "https://github.com/joyent/node/commit/202c18bbc3e134ed3e97f530749cb9f9ac60ce53"
+      }
+    ]
+  },
+  {
+    "sha": "202c18bbc3e134ed3e97f530749cb9f9ac60ce53",
+    "commit": {
+      "author": {
+        "name": "Rebecca Turner",
+        "email": "me@re-becca.org",
+        "date": "2015-05-22T07:02:40Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-23T01:14:57Z"
+      },
+      "message": "deps: upgrade to npm 2.10.1\n\nReviewed-By: Julien Gilli <julien.gilli@joyent.com>\nPR-URL: https://github.com/joyent/node/pull/25364",
+      "tree": {
+        "sha": "4d692685380871a72ce5f7998015cfc10249ee7b",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/4d692685380871a72ce5f7998015cfc10249ee7b"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/202c18bbc3e134ed3e97f530749cb9f9ac60ce53",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/202c18bbc3e134ed3e97f530749cb9f9ac60ce53",
+    "html_url": "https://github.com/joyent/node/commit/202c18bbc3e134ed3e97f530749cb9f9ac60ce53",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/202c18bbc3e134ed3e97f530749cb9f9ac60ce53/comments",
+    "author": {
+      "login": "iarna",
+      "id": 983798,
+      "avatar_url": "https://avatars.githubusercontent.com/u/983798?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iarna",
+      "html_url": "https://github.com/iarna",
+      "followers_url": "https://api.github.com/users/iarna/followers",
+      "following_url": "https://api.github.com/users/iarna/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iarna/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iarna/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iarna/subscriptions",
+      "organizations_url": "https://api.github.com/users/iarna/orgs",
+      "repos_url": "https://api.github.com/users/iarna/repos",
+      "events_url": "https://api.github.com/users/iarna/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iarna/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "3122052890e838220b49794de924b323675b3b18",
+        "url": "https://api.github.com/repos/joyent/node/commits/3122052890e838220b49794de924b323675b3b18",
+        "html_url": "https://github.com/joyent/node/commit/3122052890e838220b49794de924b323675b3b18"
+      }
+    ]
+  },
+  {
+    "sha": "3122052890e838220b49794de924b323675b3b18",
+    "commit": {
+      "author": {
+        "name": "Bert Belder",
+        "email": "bertbelder@gmail.com",
+        "date": "2015-01-19T15:53:56Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-22T21:20:57Z"
+      },
+      "message": "win: bring back xp/2k3 support\n\nIssue: https://github.com/joyent/node/issues/25348\nThe gyp/project files don't explicitly specify a subsystem version,\nwhich results in the default being used. The default changed from\nVS 2010 to VS 2012 and later.\n\nBackport e8d08503c7821e8c92e9fa236ed7328e9bdfe62a from io.js.\nOriginal commit message follows:\n\nChrome still runs on Windows XP, so there is no reason that iojs\ncouldn't.\n\nPR: https://github.com/iojs/io.js/pull/512\n(cherry picked from commit e8d08503c7821e8c92e9fa236ed7328e9bdfe62a)\n\nReviewed-By: Julien Gilli <julien.gilli@joyent.com>\nPR-URL: https://github.com/joyent/node/pull/25367",
+      "tree": {
+        "sha": "82290641ad7309b41c3405193aee705e317f80ed",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/82290641ad7309b41c3405193aee705e317f80ed"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/3122052890e838220b49794de924b323675b3b18",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/3122052890e838220b49794de924b323675b3b18",
+    "html_url": "https://github.com/joyent/node/commit/3122052890e838220b49794de924b323675b3b18",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/3122052890e838220b49794de924b323675b3b18/comments",
+    "author": {
+      "login": "piscisaureus",
+      "id": 218257,
+      "avatar_url": "https://avatars.githubusercontent.com/u/218257?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/piscisaureus",
+      "html_url": "https://github.com/piscisaureus",
+      "followers_url": "https://api.github.com/users/piscisaureus/followers",
+      "following_url": "https://api.github.com/users/piscisaureus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/piscisaureus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/piscisaureus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/piscisaureus/subscriptions",
+      "organizations_url": "https://api.github.com/users/piscisaureus/orgs",
+      "repos_url": "https://api.github.com/users/piscisaureus/repos",
+      "events_url": "https://api.github.com/users/piscisaureus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/piscisaureus/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e23450fa8128b42c958761d39fb0256024339bba",
+        "url": "https://api.github.com/repos/joyent/node/commits/e23450fa8128b42c958761d39fb0256024339bba",
+        "html_url": "https://github.com/joyent/node/commit/e23450fa8128b42c958761d39fb0256024339bba"
+      }
+    ]
+  },
+  {
+    "sha": "e23450fa8128b42c958761d39fb0256024339bba",
+    "commit": {
+      "author": {
+        "name": "cjihrig",
+        "email": "cjihrig@gmail.com",
+        "date": "2015-05-15T20:25:40Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-22T18:52:07Z"
+      },
+      "message": "test: Array.prototype.values() regression test\n\nThis commit adds a regression test for\nhttps://github.com/joyent/node/issues/25324\n\nReviewed-By: Julien Gilli <julien.gilli@joyent.com>\nPR-URL: https://github.com/joyent/node/pull/25328",
+      "tree": {
+        "sha": "ed3f4fdb6242364441cb068289bf0c402ec8e42a",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/ed3f4fdb6242364441cb068289bf0c402ec8e42a"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/e23450fa8128b42c958761d39fb0256024339bba",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/e23450fa8128b42c958761d39fb0256024339bba",
+    "html_url": "https://github.com/joyent/node/commit/e23450fa8128b42c958761d39fb0256024339bba",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/e23450fa8128b42c958761d39fb0256024339bba/comments",
+    "author": {
+      "login": "cjihrig",
+      "id": 2512748,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2512748?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cjihrig",
+      "html_url": "https://github.com/cjihrig",
+      "followers_url": "https://api.github.com/users/cjihrig/followers",
+      "following_url": "https://api.github.com/users/cjihrig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cjihrig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cjihrig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cjihrig/subscriptions",
+      "organizations_url": "https://api.github.com/users/cjihrig/orgs",
+      "repos_url": "https://api.github.com/users/cjihrig/repos",
+      "events_url": "https://api.github.com/users/cjihrig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cjihrig/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "6157697bd5bdbf58b19b9d3177249a7bbb467f79",
+        "url": "https://api.github.com/repos/joyent/node/commits/6157697bd5bdbf58b19b9d3177249a7bbb467f79",
+        "html_url": "https://github.com/joyent/node/commit/6157697bd5bdbf58b19b9d3177249a7bbb467f79"
+      }
+    ]
+  },
+  {
+    "sha": "6157697bd5bdbf58b19b9d3177249a7bbb467f79",
+    "commit": {
+      "author": {
+        "name": "cjihrig",
+        "email": "cjihrig@gmail.com",
+        "date": "2015-05-15T02:32:01Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-22T18:52:06Z"
+      },
+      "message": "deps: revert v8 Array.prototype.values() removal\n\nThe Node 0.12 line was initially released with a version\nof v8 that included Array.prototype.values(). In\nhttps://github.com/joyent/node/pull/18206, v8 was\nupdated to a version that dropped support for values().\nhttps://codereview.chromium.org/647703003 removed this\nmethod because it causes problems with some versions of\nOutlook Web Access. This commit reverts the removal of\nArray.prototype.values().\n\nOriginal commit message:\n\nRevert \"Version 3.28.71.17 (merged r24706, r24708)\"\n\nThis reverts commit 529541ecb58fd0d6df4dfbe41d01bff9ae21ff06.\n\nConflicts:\n\tsrc/version.cc\n\nReviewed-By: Julien Gilli <julien.gilli@joyent.com>\nPR-URL: https://github.com/joyent/node/pull/25328",
+      "tree": {
+        "sha": "026846779aa3b5e95fbf010cdd562302b1b1faad",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/026846779aa3b5e95fbf010cdd562302b1b1faad"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/6157697bd5bdbf58b19b9d3177249a7bbb467f79",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/6157697bd5bdbf58b19b9d3177249a7bbb467f79",
+    "html_url": "https://github.com/joyent/node/commit/6157697bd5bdbf58b19b9d3177249a7bbb467f79",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/6157697bd5bdbf58b19b9d3177249a7bbb467f79/comments",
+    "author": {
+      "login": "cjihrig",
+      "id": 2512748,
+      "avatar_url": "https://avatars.githubusercontent.com/u/2512748?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cjihrig",
+      "html_url": "https://github.com/cjihrig",
+      "followers_url": "https://api.github.com/users/cjihrig/followers",
+      "following_url": "https://api.github.com/users/cjihrig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cjihrig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cjihrig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cjihrig/subscriptions",
+      "organizations_url": "https://api.github.com/users/cjihrig/orgs",
+      "repos_url": "https://api.github.com/users/cjihrig/repos",
+      "events_url": "https://api.github.com/users/cjihrig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cjihrig/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "a294aeef0315817fa230bb4e048564d2aea5cdf7",
+        "url": "https://api.github.com/repos/joyent/node/commits/a294aeef0315817fa230bb4e048564d2aea5cdf7",
+        "html_url": "https://github.com/joyent/node/commit/a294aeef0315817fa230bb4e048564d2aea5cdf7"
+      }
+    ]
+  },
+  {
+    "sha": "a294aeef0315817fa230bb4e048564d2aea5cdf7",
+    "commit": {
+      "author": {
+        "name": "Chad Johnston",
+        "email": "cjohnston@megatome.com",
+        "date": "2015-05-12T22:07:33Z"
+      },
+      "committer": {
+        "name": "Michael Dawson",
+        "email": "michael_dawson@ca.ibm.com",
+        "date": "2015-05-21T14:14:52Z"
+      },
+      "message": "doc: Using ciphers with tls.connect()\n\nRefs #25270,#25271\n\nReviewed-By: Michael Dawson <mhdawsonibm@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25325",
+      "tree": {
+        "sha": "f900cec60a478b1a39a7a678f8973c08460d67c9",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/f900cec60a478b1a39a7a678f8973c08460d67c9"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/a294aeef0315817fa230bb4e048564d2aea5cdf7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/a294aeef0315817fa230bb4e048564d2aea5cdf7",
+    "html_url": "https://github.com/joyent/node/commit/a294aeef0315817fa230bb4e048564d2aea5cdf7",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/a294aeef0315817fa230bb4e048564d2aea5cdf7/comments",
+    "author": {
+      "login": "iamthechad",
+      "id": 621539,
+      "avatar_url": "https://avatars.githubusercontent.com/u/621539?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/iamthechad",
+      "html_url": "https://github.com/iamthechad",
+      "followers_url": "https://api.github.com/users/iamthechad/followers",
+      "following_url": "https://api.github.com/users/iamthechad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/iamthechad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/iamthechad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/iamthechad/subscriptions",
+      "organizations_url": "https://api.github.com/users/iamthechad/orgs",
+      "repos_url": "https://api.github.com/users/iamthechad/repos",
+      "events_url": "https://api.github.com/users/iamthechad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/iamthechad/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mhdawson",
+      "id": 9373002,
+      "avatar_url": "https://avatars.githubusercontent.com/u/9373002?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mhdawson",
+      "html_url": "https://github.com/mhdawson",
+      "followers_url": "https://api.github.com/users/mhdawson/followers",
+      "following_url": "https://api.github.com/users/mhdawson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhdawson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhdawson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhdawson/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhdawson/orgs",
+      "repos_url": "https://api.github.com/users/mhdawson/repos",
+      "events_url": "https://api.github.com/users/mhdawson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhdawson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ebbb3560fabc757b06efa4caff07b2ab4b68b5ba",
+        "url": "https://api.github.com/repos/joyent/node/commits/ebbb3560fabc757b06efa4caff07b2ab4b68b5ba",
+        "html_url": "https://github.com/joyent/node/commit/ebbb3560fabc757b06efa4caff07b2ab4b68b5ba"
+      }
+    ]
+  },
+  {
+    "sha": "d13d7f74d794340ac5e126cfb4ce507fe0f803d5",
+    "commit": {
+      "author": {
+        "name": "Kevin",
+        "email": "kevin@mrkmg.com",
+        "date": "2015-05-09T03:46:06Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-20T16:52:15Z"
+      },
+      "message": "src: fix ifdef comment\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25274",
+      "tree": {
+        "sha": "89225fca65526a0f2a14823efe12706b92388150",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/89225fca65526a0f2a14823efe12706b92388150"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/d13d7f74d794340ac5e126cfb4ce507fe0f803d5",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/d13d7f74d794340ac5e126cfb4ce507fe0f803d5",
+    "html_url": "https://github.com/joyent/node/commit/d13d7f74d794340ac5e126cfb4ce507fe0f803d5",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/d13d7f74d794340ac5e126cfb4ce507fe0f803d5/comments",
+    "author": {
+      "login": "mrkmg",
+      "id": 399561,
+      "avatar_url": "https://avatars.githubusercontent.com/u/399561?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mrkmg",
+      "html_url": "https://github.com/mrkmg",
+      "followers_url": "https://api.github.com/users/mrkmg/followers",
+      "following_url": "https://api.github.com/users/mrkmg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mrkmg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mrkmg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mrkmg/subscriptions",
+      "organizations_url": "https://api.github.com/users/mrkmg/orgs",
+      "repos_url": "https://api.github.com/users/mrkmg/repos",
+      "events_url": "https://api.github.com/users/mrkmg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mrkmg/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "0df5e1c049a64f43892a8dcd7c109b4b2194d380",
+        "url": "https://api.github.com/repos/joyent/node/commits/0df5e1c049a64f43892a8dcd7c109b4b2194d380",
+        "html_url": "https://github.com/joyent/node/commit/0df5e1c049a64f43892a8dcd7c109b4b2194d380"
+      }
+    ]
+  },
+  {
+    "sha": "ebbb3560fabc757b06efa4caff07b2ab4b68b5ba",
+    "commit": {
+      "author": {
+        "name": "Gireesh Punathil",
+        "email": "gpunathi@in.ibm.com",
+        "date": "2015-05-13T05:35:44Z"
+      },
+      "committer": {
+        "name": "Michael Dawson",
+        "email": "michael_dawson@ca.ibm.com",
+        "date": "2015-05-14T23:46:10Z"
+      },
+      "message": "test: relax timing constraints for child process\n\nWith additional load in the system, the child process which runs sleep\ncommand takes more time to run - typically slightly above 1 second,\nbut above 2 seconds under stress.\n\nWhile the intent of the test is to test the functionality of spawnSync\nand the child process in general, in effect it is testing the system\ncommand sleep, and further, it's responsiveness.\n\nSince from the name the purpose of the test seems to be unrelated to\nthe sleep behaviour, I believe a more meaningful assertion would be to\nsee the time taken is more than 1 second.\n\nReviewed-By: Michael Dawson <mhdawsonibm@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25291",
+      "tree": {
+        "sha": "7bf7f0e890b2e350a33f97306af5dd55e40c531b",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/7bf7f0e890b2e350a33f97306af5dd55e40c531b"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/ebbb3560fabc757b06efa4caff07b2ab4b68b5ba",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/ebbb3560fabc757b06efa4caff07b2ab4b68b5ba",
+    "html_url": "https://github.com/joyent/node/commit/ebbb3560fabc757b06efa4caff07b2ab4b68b5ba",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/ebbb3560fabc757b06efa4caff07b2ab4b68b5ba/comments",
+    "author": {
+      "login": "gireeshpunathil",
+      "id": 6447530,
+      "avatar_url": "https://avatars.githubusercontent.com/u/6447530?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gireeshpunathil",
+      "html_url": "https://github.com/gireeshpunathil",
+      "followers_url": "https://api.github.com/users/gireeshpunathil/followers",
+      "following_url": "https://api.github.com/users/gireeshpunathil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gireeshpunathil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gireeshpunathil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gireeshpunathil/subscriptions",
+      "organizations_url": "https://api.github.com/users/gireeshpunathil/orgs",
+      "repos_url": "https://api.github.com/users/gireeshpunathil/repos",
+      "events_url": "https://api.github.com/users/gireeshpunathil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gireeshpunathil/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mhdawson",
+      "id": 9373002,
+      "avatar_url": "https://avatars.githubusercontent.com/u/9373002?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mhdawson",
+      "html_url": "https://github.com/mhdawson",
+      "followers_url": "https://api.github.com/users/mhdawson/followers",
+      "following_url": "https://api.github.com/users/mhdawson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhdawson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhdawson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhdawson/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhdawson/orgs",
+      "repos_url": "https://api.github.com/users/mhdawson/repos",
+      "events_url": "https://api.github.com/users/mhdawson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhdawson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "97d4706e8163631b8bc5ae64a33f56e2c489e9e3",
+        "url": "https://api.github.com/repos/joyent/node/commits/97d4706e8163631b8bc5ae64a33f56e2c489e9e3",
+        "html_url": "https://github.com/joyent/node/commit/97d4706e8163631b8bc5ae64a33f56e2c489e9e3"
+      }
+    ]
+  },
+  {
+    "sha": "97d4706e8163631b8bc5ae64a33f56e2c489e9e3",
+    "commit": {
+      "author": {
+        "name": "Michael Dawson",
+        "email": "michael_dawson@ca.ibm.com",
+        "date": "2015-05-14T21:32:19Z"
+      },
+      "committer": {
+        "name": "Michael Dawson",
+        "email": "michael_dawson@ca.ibm.com",
+        "date": "2015-05-14T22:28:32Z"
+      },
+      "message": "test: delete simple/test-process-active-wraps\n\nThis test currently fails when run on machines without\nIPv6 enabled. Futher it was delete in io.js under\n3143d732f6efd82da76e9c53ad192ac14071bf70 as the test\nwas known to have problems across platforms and\nreleases.\n\nThe existing test was hard to understand so I wrote\na new version but then found exactly what was\nreported in the io.js pull request.  Behaviour varies\nacross platforms such that writing a solid test would\neither be infeasible or test so little that\nit does not seem to make sense to keep it.\n\nReviewed-By: Colin Ihrig <cjihrig@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25326",
+      "tree": {
+        "sha": "b3502b21daad27672d0448477358710b6904a2d4",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/b3502b21daad27672d0448477358710b6904a2d4"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/97d4706e8163631b8bc5ae64a33f56e2c489e9e3",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/97d4706e8163631b8bc5ae64a33f56e2c489e9e3",
+    "html_url": "https://github.com/joyent/node/commit/97d4706e8163631b8bc5ae64a33f56e2c489e9e3",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/97d4706e8163631b8bc5ae64a33f56e2c489e9e3/comments",
+    "author": {
+      "login": "mhdawson",
+      "id": 9373002,
+      "avatar_url": "https://avatars.githubusercontent.com/u/9373002?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mhdawson",
+      "html_url": "https://github.com/mhdawson",
+      "followers_url": "https://api.github.com/users/mhdawson/followers",
+      "following_url": "https://api.github.com/users/mhdawson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhdawson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhdawson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhdawson/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhdawson/orgs",
+      "repos_url": "https://api.github.com/users/mhdawson/repos",
+      "events_url": "https://api.github.com/users/mhdawson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhdawson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "mhdawson",
+      "id": 9373002,
+      "avatar_url": "https://avatars.githubusercontent.com/u/9373002?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mhdawson",
+      "html_url": "https://github.com/mhdawson",
+      "followers_url": "https://api.github.com/users/mhdawson/followers",
+      "following_url": "https://api.github.com/users/mhdawson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mhdawson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mhdawson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mhdawson/subscriptions",
+      "organizations_url": "https://api.github.com/users/mhdawson/orgs",
+      "repos_url": "https://api.github.com/users/mhdawson/repos",
+      "events_url": "https://api.github.com/users/mhdawson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mhdawson/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "d2395f717bb1f6c0539f3cd915bc8f45e12d769d",
+        "url": "https://api.github.com/repos/joyent/node/commits/d2395f717bb1f6c0539f3cd915bc8f45e12d769d",
+        "html_url": "https://github.com/joyent/node/commit/d2395f717bb1f6c0539f3cd915bc8f45e12d769d"
+      }
+    ]
+  },
+  {
+    "sha": "0df5e1c049a64f43892a8dcd7c109b4b2194d380",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-14T18:46:13Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-14T18:46:13Z"
+      },
+      "message": "Merge remote-tracking branch 'upstream/v0.12'\n\nConflicts:\n\tsrc/node_version.h",
+      "tree": {
+        "sha": "31c567e4dd1810ab6b800dbbbf95c9cd07ea72a3",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/31c567e4dd1810ab6b800dbbbf95c9cd07ea72a3"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/0df5e1c049a64f43892a8dcd7c109b4b2194d380",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/0df5e1c049a64f43892a8dcd7c109b4b2194d380",
+    "html_url": "https://github.com/joyent/node/commit/0df5e1c049a64f43892a8dcd7c109b4b2194d380",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/0df5e1c049a64f43892a8dcd7c109b4b2194d380/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "4d9c81b7e2522c5d5d9d35058cbb0bce1228d360",
+        "url": "https://api.github.com/repos/joyent/node/commits/4d9c81b7e2522c5d5d9d35058cbb0bce1228d360",
+        "html_url": "https://github.com/joyent/node/commit/4d9c81b7e2522c5d5d9d35058cbb0bce1228d360"
+      },
+      {
+        "sha": "d2395f717bb1f6c0539f3cd915bc8f45e12d769d",
+        "url": "https://api.github.com/repos/joyent/node/commits/d2395f717bb1f6c0539f3cd915bc8f45e12d769d",
+        "html_url": "https://github.com/joyent/node/commit/d2395f717bb1f6c0539f3cd915bc8f45e12d769d"
+      }
+    ]
+  },
+  {
+    "sha": "d2395f717bb1f6c0539f3cd915bc8f45e12d769d",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-14T02:37:33Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-14T02:37:33Z"
+      },
+      "message": "Now working on 0.12.4",
+      "tree": {
+        "sha": "6789147a9763f720670aa3fa1eb401bb50ed6ab4",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/6789147a9763f720670aa3fa1eb401bb50ed6ab4"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/d2395f717bb1f6c0539f3cd915bc8f45e12d769d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/d2395f717bb1f6c0539f3cd915bc8f45e12d769d",
+    "html_url": "https://github.com/joyent/node/commit/d2395f717bb1f6c0539f3cd915bc8f45e12d769d",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/d2395f717bb1f6c0539f3cd915bc8f45e12d769d/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1ae392e35ed7d71466d0f2979b4a4d0b2fffb73e",
+        "url": "https://api.github.com/repos/joyent/node/commits/1ae392e35ed7d71466d0f2979b4a4d0b2fffb73e",
+        "html_url": "https://github.com/joyent/node/commit/1ae392e35ed7d71466d0f2979b4a4d0b2fffb73e"
+      }
+    ]
+  },
+  {
+    "sha": "1ae392e35ed7d71466d0f2979b4a4d0b2fffb73e",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-14T02:36:55Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-14T02:36:55Z"
+      },
+      "message": "Merge branch 'v0.12.3-release' into v0.12",
+      "tree": {
+        "sha": "7358690efe5c0b79a0178fd3f7334208d0634494",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/7358690efe5c0b79a0178fd3f7334208d0634494"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/1ae392e35ed7d71466d0f2979b4a4d0b2fffb73e",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/1ae392e35ed7d71466d0f2979b4a4d0b2fffb73e",
+    "html_url": "https://github.com/joyent/node/commit/1ae392e35ed7d71466d0f2979b4a4d0b2fffb73e",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/1ae392e35ed7d71466d0f2979b4a4d0b2fffb73e/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "72188d87d090d0f0f0bfac8ef069bfb01787e69d",
+        "url": "https://api.github.com/repos/joyent/node/commits/72188d87d090d0f0f0bfac8ef069bfb01787e69d",
+        "html_url": "https://github.com/joyent/node/commit/72188d87d090d0f0f0bfac8ef069bfb01787e69d"
+      },
+      {
+        "sha": "03431c7d7b4b4a3054ca8ae2cfa8009e3e84a2c7",
+        "url": "https://api.github.com/repos/joyent/node/commits/03431c7d7b4b4a3054ca8ae2cfa8009e3e84a2c7",
+        "html_url": "https://github.com/joyent/node/commit/03431c7d7b4b4a3054ca8ae2cfa8009e3e84a2c7"
+      }
+    ]
+  },
+  {
+    "sha": "03431c7d7b4b4a3054ca8ae2cfa8009e3e84a2c7",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-14T00:30:45Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-14T00:30:45Z"
+      },
+      "message": "2015.05.13, Version 0.12.3 (Stable)\n\n* V8: update to 3.28.71.19\n\n* uv: upgrade to 1.5.0\n\n* npm: upgrade to 2.9.1\n\n* V8: don't busy loop in v8 cpu profiler thread (Mike Tunnicliffe)\n\n* V8: fix issue with let bindings in for loops (adamk)\n\n* debugger: don't spawn child process in remote mode (Jackson Tian)\n\n* net: do not set V4MAPPED on FreeBSD (Julien Gilli)\n\n* repl: make 'Unexpected token' errors recoverable (Julien Gilli)\n\n* src: backport ignore ENOTCONN on shutdown race (Ben Noordhuis)\n\n* src: fix backport of SIGINT crash fix on FreeBSD (Julien Gilli)",
+      "tree": {
+        "sha": "7358690efe5c0b79a0178fd3f7334208d0634494",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/7358690efe5c0b79a0178fd3f7334208d0634494"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/03431c7d7b4b4a3054ca8ae2cfa8009e3e84a2c7",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/03431c7d7b4b4a3054ca8ae2cfa8009e3e84a2c7",
+    "html_url": "https://github.com/joyent/node/commit/03431c7d7b4b4a3054ca8ae2cfa8009e3e84a2c7",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/03431c7d7b4b4a3054ca8ae2cfa8009e3e84a2c7/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "72188d87d090d0f0f0bfac8ef069bfb01787e69d",
+        "url": "https://api.github.com/repos/joyent/node/commits/72188d87d090d0f0f0bfac8ef069bfb01787e69d",
+        "html_url": "https://github.com/joyent/node/commit/72188d87d090d0f0f0bfac8ef069bfb01787e69d"
+      }
+    ]
+  },
+  {
+    "sha": "72188d87d090d0f0f0bfac8ef069bfb01787e69d",
+    "commit": {
+      "author": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-13T21:24:58Z"
+      },
+      "committer": {
+        "name": "Julien Gilli",
+        "email": "julien.gilli@joyent.com",
+        "date": "2015-05-13T22:37:32Z"
+      },
+      "message": "tls,crypto: revert recent cipher lists changes\n\nRevert \"disable RC4, add --cipher-list command line switch\" and\n\"tls: make --enable-legacy-cipher-list=val less verbose\"\n\nThis reverts commit f9291a94498c6f9d70a74a1e402f333383286120 and\nb5737bb97775ff461266d28245df104dde0e6986.\n\nThere is still some work to be done to guarantee secure defaults and a\nsmooth upgrade path for v0.12.x users. Before this work is finished, we\nwant to be able to release new versions of v0.12.x. So instead of\nwaiting for these changes to be ready to ship, revert them and integrate\nthem when they're ready to be shipped.\n\nConflicts:\n\tsrc/node.cc\n\nReviewed-By: James M Snell <jasnell@gmail.com>\nPR-URL: https://github.com/joyent/node/pull/25296",
+      "tree": {
+        "sha": "5140c7d9de270b5249e085275a905cff530156d4",
+        "url": "https://api.github.com/repos/joyent/node/git/trees/5140c7d9de270b5249e085275a905cff530156d4"
+      },
+      "url": "https://api.github.com/repos/joyent/node/git/commits/72188d87d090d0f0f0bfac8ef069bfb01787e69d",
+      "comment_count": 0
+    },
+    "url": "https://api.github.com/repos/joyent/node/commits/72188d87d090d0f0f0bfac8ef069bfb01787e69d",
+    "html_url": "https://github.com/joyent/node/commit/72188d87d090d0f0f0bfac8ef069bfb01787e69d",
+    "comments_url": "https://api.github.com/repos/joyent/node/commits/72188d87d090d0f0f0bfac8ef069bfb01787e69d/comments",
+    "author": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "misterdjules",
+      "id": 811047,
+      "avatar_url": "https://avatars.githubusercontent.com/u/811047?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/misterdjules",
+      "html_url": "https://github.com/misterdjules",
+      "followers_url": "https://api.github.com/users/misterdjules/followers",
+      "following_url": "https://api.github.com/users/misterdjules/following{/other_user}",
+      "gists_url": "https://api.github.com/users/misterdjules/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/misterdjules/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/misterdjules/subscriptions",
+      "organizations_url": "https://api.github.com/users/misterdjules/orgs",
+      "repos_url": "https://api.github.com/users/misterdjules/repos",
+      "events_url": "https://api.github.com/users/misterdjules/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/misterdjules/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "03cfbd65fb650e2fc8139bd96dc05dbd01f1a2d6",
+        "url": "https://api.github.com/repos/joyent/node/commits/03cfbd65fb650e2fc8139bd96dc05dbd01f1a2d6",
+        "html_url": "https://github.com/joyent/node/commit/03cfbd65fb650e2fc8139bd96dc05dbd01f1a2d6"
+      }
+    ]
+  }
+]
